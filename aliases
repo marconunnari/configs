@@ -1,0 +1,10 @@
+alias c="clear"
+alias lr="ll -lR"
+alias gt="git status -u"
+alias ga="git add"
+alias gaa="git add *"
+alias gc="git commit -m"
+alias gp="git push origin master"
+function mk() {
+	mkdir $1 && cd $1;
+}
